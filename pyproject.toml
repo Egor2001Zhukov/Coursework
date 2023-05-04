@@ -6,8 +6,12 @@ authors = ["EgorZH <egor2001zhukov@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.0.0"
+pytest-mock = "^3.10.0"
 
 [build-system]
 requires = ["poetry-core"]
